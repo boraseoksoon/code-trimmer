@@ -17,17 +17,17 @@ origin source =>
 
 ```js
 /*
-    (async () => {
-        const result = await Swal.fire(
-            'Success',
-            'Your code is saved!',
-            'success'
-        )
+        (async () => {
+            const result = await Swal.fire(
+                'Success',
+                'Your code is saved!',
+                'success'
+            )
 
-        if (result) {
-            window.location = `${BASE_URL}/main`
-        }
-    })()
+            if (result) {
+                window.location = `${BASE_URL}/main`
+            }
+        })()
 */
 ```
 
