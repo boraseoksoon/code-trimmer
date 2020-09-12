@@ -1,0 +1,33 @@
+{
+  "name": "code-trimmer",
+  "version": "0.0.1",
+  "description": "Trim unnecessary prefix escape characters given a string. Turn a given source code to the beauty, written in Javascript. (and (maybe (Clojure(script)))",
+  "main": "code-trimmer.js",
+  "scripts": {
+    "test": "jest ./*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boraseoksoon/Trimmer.git"
+  },
+  "keywords": [
+		"trimmer",
+    "trimmers",
+    "trim",
+    "source",
+    "code",
+    "tab",
+    "whitespace",
+    "trimming",
+    "javascript"
+  ],
+  "author": "Jang seoksoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boraseoksoon/Trimmer/issues"
+  },
+  "homepage": "https://github.com/boraseoksoon/Trimmer#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
