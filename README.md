@@ -10,7 +10,6 @@ code-trimmer will trim a given chunk of source code, started with unnecessarily 
 const trimmer = require("code-trimmer")
 
 const res = trimmer.trim(source)
-console.log("trim done : ", res)
 ```
 
 origin source =>
