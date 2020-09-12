@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boraseoksoon/Trimmer.git"
+    "url": "git+https://github.com/boraseoksoon/code-trimmer"
   },
   "keywords": [
 		"trimmer",
@@ -24,9 +24,9 @@
   "author": "Jang seoksoon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/boraseoksoon/Trimmer/issues"
+    "url": "https://github.com/boraseoksoon/code-trimmer/issues"
   },
-  "homepage": "https://github.com/boraseoksoon/Trimmer#readme",
+  "homepage": "https://github.com/boraseoksoon/code-trimmer#readme",
   "devDependencies": {
     "jest": "^26.4.2"
   }
