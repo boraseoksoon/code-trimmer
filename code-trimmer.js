@@ -63,4 +63,11 @@ function trim(src) {
 	}
 }
 
-module.exports = { trim } 
+if (
+  typeof module !== 'undefined' &&
+  typeof module.exports !== 'undefined'
+) {
+	module.exports = { trim }
+} else {
+	window.trimmer = { trim }
+}

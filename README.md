@@ -7,9 +7,13 @@ code-trimmer will indent a given chunk of source code, started with unnecessaril
 [![NPM Version][npm-image]][npm-url]
 
 ```js
-const trimmer = require("code-trimmer")
+const trimmer = require("./code-trimmer")
+
+const source = "\t\t\t\t\t\t\t(async () => {\n\t\t\t\t\t\t\t\tconst result = await fire(\n\t\t\t\t\t\t\t\t\t'trimmed!',\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t})()"
 
 const res = trimmer.trim(source)
+
+console.log(res)
 ```
 
 origin source =>
@@ -48,7 +52,7 @@ into =>
 */
 ```
 
-## Installation
+## Installation for Node.js
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
 [npm registry](https://www.npmjs.com/).
@@ -64,6 +68,24 @@ Installation is done using the
 
 ```bash
 $ npm install code-trimmer
+```
+
+## Installation for Web Browser 
+
+CDN
+
+```
+<script src="https://cdn.jsdelivr.net/npm/code-trimmer@0.0.5/code-trimmer.js"></script>
+
+<script>
+const trimmer = require("./code-trimmer")
+
+const source = "\t\t\t\t\t\t\t(async () => {\n\t\t\t\t\t\t\t\tconst result = await fire(\n\t\t\t\t\t\t\t\t\t'trimmed!',\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t})()"
+
+const res = trimmer.trim(source)
+
+console.log(res)
+</script>
 ```
 
 ## Features

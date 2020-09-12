@@ -1,6 +1,6 @@
 {
   "name": "code-trimmer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "code-trimmer will indent a given chunk of source code, started with unnecessarily added whitespaces or tabs, by trimming the tabs and white-spaces in a consistent way, scanning through line by line, written in Javascript. (and (maybe (Clojure(script)))",
   "main": "code-trimmer.js",
   "scripts": {
