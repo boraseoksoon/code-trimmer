@@ -1,27 +1,38 @@
-  Trim source code into the beauty if needed for [node](http://nodejs.org), and [autocomplete-me](http://autocomplete-me.com)
+## code-trimmer
 
-  [![NPM Version][npm-image]][npm-url]
+Trim source code into the beauty if needed for [node](http://nodejs.org), and [autocomplete-me](http://autocomplete-me.com).
+
+code-trimmer will trim a given chunk of source code, started with unnecessarily added whitespaces or tabs, in a consistent way, scanning through line by line as following : 
+
+[![NPM Version][npm-image]][npm-url]
 
 ```js
 const trimmer = require("code-trimmer")
 
 const res = trimmer.trim(source)
+console.log("trim done : ", res)
+```
 
-/* source => 
-            (async () => {
-                const result = await Swal.fire(
-                    'Success',
-                    'Your code is saved!',
-                    'success'
-                )
+source =>
+```js
+/*
+					(async () => {
+							const result = await Swal.fire(
+									'Success',
+									'Your code is saved!',
+									'success'
+							)
 
-                if (result) {
-                    window.location = `${BASE_URL}/main`
-                }
-            })()
+							if (result) {
+									window.location = `${BASE_URL}/main`
+							}
+					})()
 */
+```
 
-/* res 
+into =>
+```js
+/* 
 (async () => {
 		const result = await Swal.fire(
 				'Success',
