@@ -2,7 +2,7 @@
 
 Trim source code into the beauty if needed for [node](http://nodejs.org), and [autocomplete-me](http://autocomplete-me.com).
 
-code-trimmer will trim a given chunk of source code, started with unnecessarily added whitespaces or tabs, in a consistent way, scanning through line by line as following : 
+code-trimmer will indent a given chunk of source code, started with unnecessarily added whitespaces or tabs, by trimming the tabs and white-spaces in a consistent way, scanning through line by line as following : 
 
 [![NPM Version][npm-image]][npm-url]
 

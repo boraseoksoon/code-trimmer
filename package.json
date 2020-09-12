@@ -1,7 +1,7 @@
 {
   "name": "code-trimmer",
-  "version": "0.0.1",
-  "description": "Trim unnecessary prefix escape characters given a string. Turn a given source code to the beauty, written in Javascript. (and (maybe (Clojure(script)))",
+  "version": "0.0.4",
+  "description": "code-trimmer will indent a given chunk of source code, started with unnecessarily added whitespaces or tabs, by trimming the tabs and white-spaces in a consistent way, scanning through line by line, written in Javascript. (and (maybe (Clojure(script)))",
   "main": "code-trimmer.js",
   "scripts": {
     "test": "jest ./*.test.js"
