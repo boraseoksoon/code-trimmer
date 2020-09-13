@@ -54,7 +54,9 @@ function TrimPrefixTab({ src }) {
 }
 
 function trim(src) {
-	if (src.startsWith(tab)) {
+	if (src == undefined) {
+		return ""
+	} else if (src.startsWith(tab)) {
 		return TrimPrefixTab({ src: src })
 	} else if (src.startsWith(space)) {
 		return TrimPrefixWhiteSpace({ src: src })
